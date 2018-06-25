@@ -1,6 +1,6 @@
 ﻿import numpy as np
 import cv2
-import pickle
+import pickle 
 
 face_casecade = cv2.CascadeClassifier('cascades\data\haarcascades\haarcascade_frontalface_alt.xml')
 recognizer = cv2.face.LBPHFaceRecognizer_create()
